@@ -1,0 +1,11 @@
+/*   
+
+Theme Name:MyCustomTheme
+Description:blog
+Author: Prem Dudhrejiya
+
+*/
+
+section#hero {
+    margin-top: -50px !important;
+}
