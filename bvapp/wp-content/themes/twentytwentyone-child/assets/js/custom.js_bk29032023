@@ -1,0 +1,170 @@
+// $("body .demo-edit-btn").on("click", function () {
+//     $(".demo-title").addClass("active");
+//   });
+//   $(document).on("click", function () {
+//     $(".demo-title").removeClass("active");
+//   });
+
+$(document).ready(function () {
+  $(".demo-edit-btn").click(function () {
+    var docClick = function (ev) {
+      if (!$(ev.target).hasClass("demo-edit-btn")) {
+        closeDropdown();
+      }
+    };
+
+    var closeDropdown = function () {
+      $(".demo-title").removeClass("active");
+      $(document).unbind("click", docClick);
+    };
+
+    if ($(this).parent().prev(".demo-title").hasClass("active")) {
+      closeDropdown();
+    } else {
+      $(document).bind("click", docClick);
+      $(this).parent().prev(".demo-title").addClass("active");
+    }
+  });
+});
+
+$("#login-from-submit").submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: "POST",
+    url: ajaxurl,
+    data: $(this).serialize(),
+    success: function (data) {
+      if (data == 1) {
+        window.location.href = site_url + "/dashboard";
+      } else {
+        $("#responce_error").html(data);
+      }
+    },
+  });
+});
+
+$("#register-from-submit").submit(function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: "POST",
+    url: ajaxurl,
+    data: $(this).serialize(),
+    success: function (data) {
+      if (data == 1) {
+        window.location.href = site_url + "/login";
+      } else {
+        $("#responce_error").html(data);
+      }
+    },
+  });
+});
+
+$(document).on("click", ".exampleModalEdit", function () {
+  var tourid = $(this).data("tourid");
+  $("#modal-content-edit").html(
+    '<div class="modal-header"><h5 class="modal-title" id="exampleModalLabel">Edit</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div></div>'
+  );
+  $.ajax({
+    type: "POST",
+    url: ajaxurl,
+    data: { tourid: tourid, action: "tour_edit_ajax" },
+    success: function (data) {
+      $("#modal-content-edit").html(data);
+    },
+  });
+});
+
+$(document).on("click", ".removevideojs", function () {
+  if (confirm("Are you sure you want to delete this?")) {
+    var id = $(this).data("group");
+    $(".removevideogrp" + id).remove();
+  }
+});
+
+$(document).on("submit", "#edti-tour-form-byowner", function (e) {
+  e.preventDefault();
+
+  var formData = new FormData(this);
+
+  $.ajax({
+    type: "POST",
+    url: ajaxurl,
+    data: formData,
+    processData: false,
+    cache: false,
+    contentType: false,
+    success: function (data) {
+      if (data == 1) {
+        // window.location.href = site_url + "/dashboard";
+      } else {
+        $("#responce_error").html(data);
+      }
+    },
+  });
+});
+$(document).on("click", function (e) {
+  if ($(e.target).is(".dropdown-toggle") === false) {
+    $(".dropdown").removeClass("show");
+    $(".dropdown-menu").removeClass("show");
+  }
+});
+$(document).on("click", ".dropdown", function () {
+  $(this).addClass("show");
+  $(".dropdown-menu").addClass("show");
+});
+
+$(document).on("click", ".senttoarchivetour", function () {
+  var tourid = $(this).data("tourid");
+  if (confirm("Are you sure you want to delete this?")) {
+    $.ajax({
+      type: "POST",
+      url: ajaxurl,
+      data: { tourid: tourid, action: "tour_sent_to_archive_ajax" },
+      success: function (data) {
+        $(".tourblock" + tourid).remove();
+      },
+    });
+  }
+});
+
+$(document).on("click", ".restoretourfromarchive", function () {
+  var tourid = $(this).data("tourid");
+  if (confirm("Are you sure you want to restore this?")) {
+    $.ajax({
+      type: "POST",
+      url: ajaxurl,
+      data: { tourid: tourid, action: "tour_sent_to_restore_ajax" },
+      success: function (data) {
+        $(".tourblock" + tourid).remove();
+      },
+    });
+  }
+});
+
+$(document).on("click", ".makeitlivetour", function () {
+  var tourid = $(this).data("tourid");
+  if (confirm("Are you sure you want to live this?")) {
+    $.ajax({
+      type: "POST",
+      url: ajaxurl,
+      data: { tourid: tourid, action: "tour_sent_to_live_ajax" },
+      success: function (data) {
+        location.reload();
+      },
+    });
+  }
+});
+
+$(document).on("click", ".makeitunlivetour", function () {
+  var tourid = $(this).data("tourid");
+  if (confirm("Are you sure you want to deactive this?")) {
+    $.ajax({
+      type: "POST",
+      url: ajaxurl,
+      data: { tourid: tourid, action: "tour_sent_to_deactive_ajax" },
+      success: function (data) {
+        location.reload();
+      },
+    });
+  }
+});

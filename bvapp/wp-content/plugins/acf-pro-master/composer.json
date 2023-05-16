@@ -1,0 +1,10 @@
+{
+  "name": "wp-plugins/advanced-custom-fields-pro",
+  "version": "master",
+  "type": "wordpress-plugin",
+  "source": {
+      "url": "git@gitlab.com:esiao-wp-plugins/acf-pro.git",
+      "type": "git",
+      "reference": "master"
+  }
+}

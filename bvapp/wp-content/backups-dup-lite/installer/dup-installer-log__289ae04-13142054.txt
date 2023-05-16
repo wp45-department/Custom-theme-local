@@ -1,0 +1,1948 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:26:45
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.1.10                                |8.1.1
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.1 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+DOC ROOT____________: "C:/xampp/htdocs/bvapp"
+REQUEST URL_________: "http://localhost/bvapp"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/bvapp"
+URL_NEW_____________: "http://localhost/bvapp"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/bvapp/20230413_usersblog_[HASH]_20230413142054_archive.zip"
+ARCHIVE SIZE________: 318.06MB
+CREATED_____________: 2023-04-13 14:20:54
+WP VERSION__________: 6.0.3
+DUP VERSION_________: 1.5.3.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.6.9
+DB FILE SIZE________: 5.02MB
+DB TABLES___________: 36
+DB ROWS_____________: 3545
+URL HOME____________: http://bvapp.net
+URL CORE____________: http://bvapp.net
+URL CONTENT_________: http://bvapp.net/wp-content
+URL UPLOAD__________: http://bvapp.net/wp-content/uploads
+URL PLUGINS_________: http://bvapp.net/wp-content/plugins
+URL MU PLUGINS______: http://bvapp.net/wp-content/mu-plugins
+URL THEMES__________: http://bvapp.net/wp-content/themes
+PATH HOME___________: /opt/bitnami/wordpress
+PATH ABS____________: /opt/bitnami/wordpress
+PATH WPCONFIG_______: /opt/bitnami/wordpress
+PATH WPCONTENT______: /opt/bitnami/wordpress/wp-content
+PATH UPLOADS________: /opt/bitnami/wordpress/wp-content/uploads
+PATH PLUGINS________: /opt/bitnami/wordpress/wp-content/plugins
+PATH MUPLUGINS______: /opt/bitnami/wordpress/wp-content/mu-plugins
+PATH THEMES_________: /opt/bitnami/wordpress/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "bvapp.net/"
+
+PLUGINS
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:true ]  Advanced Custom Fields
+PLUGIN [SLUG:acf-pro-master/acf.php                            ][ON:true ]  Advanced Custom Fields PRO
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam: Spam Protection
+PLUGIN [SLUG:all-in-one-wp-migration/all-in-one-wp-migration.php][ON:true ]  All-in-One WP Migration
+PLUGIN [SLUG:all-in-one-seo-pack/all_in_one_seo_pack.php       ][ON:false]  All in One SEO
+PLUGIN [SLUG:amp/amp.php                                       ][ON:false]  AMP
+PLUGIN [SLUG:amazon-polly/amazonpolly.php                      ][ON:false]  AWS for WordPress
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:google-analytics-for-wordpress/googleanalytics.php][ON:false]  Google Analytics for WordPress by MonsterInsights
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:jetpack/jetpack.php                               ][ON:false]  Jetpack
+PLUGIN [SLUG:members/members.php                               ][ON:true ]  Members
+PLUGIN [SLUG:new-user-approve/new-user-approve.php             ][ON:true ]  New User Approve
+PLUGIN [SLUG:sucuri-scanner/sucuri.php                         ][ON:true ]  Sucuri Security - Auditing, Malware Scanner and Hardening
+PLUGIN [SLUG:svg-support/svg-support.php                       ][ON:true ]  SVG Support
+PLUGIN [SLUG:simple-tags/simple-tags.php                       ][ON:false]  TaxoPress
+PLUGIN [SLUG:unique-title-checker/unique-title-checker.php     ][ON:true ]  Unique Title Checker
+PLUGIN [SLUG:w3-total-cache/w3-total-cache.php                 ][ON:true ]  W3 Total Cache
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:false]  WP Mail SMTP
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false]  advanced-cache.php
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\ctrls\ctrl.base.php:227][DELTA:   4.04718]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.42479]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+LOG-TIME[DELTA:   0.09744]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00067]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.03728]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.15671]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00093]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01238]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00130]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00058]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00068]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00075]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.06210]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00061]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00117]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00051]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00063]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:27:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "User's blog"
+HOME URL NEW________: "http://localhost/bvapp"
+SITE URL NEW________: "http://localhost/bvapp/"
+CONTENT URL NEW_____: "http://localhost/bvapp/wp-content"
+UPLOAD URL NEW______: "http://localhost/bvapp/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/bvapp/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/bvapp/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/bvapp"
+SITE PATH NEW_______: "C:/xampp/htdocs/bvapp/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/bvapp/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/bvapp/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/bvapp/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/bvapp/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/bvapp/dup-installer"
+	FILE: "C:/xampp/htdocs/bvapp/20230413_usersblog_[HASH]_20230413142054_installer-backup.php"
+	FILE: "C:/xampp/htdocs/bvapp/20230413_usersblog_[HASH]_20230413142054_archive.zip"
+	FILE: "C:/xampp/htdocs/bvapp/installer.php"
+	FILE: "C:/xampp/htdocs/bvapp/dup-installer-bootlog__289ae04-13142054.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230413_usersblog_[HASH]_20230413142054_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.2896 sec. - Files processed: 2 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0637 sec. - Files processed: 6,416 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6416
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0301 sec. - Files processed: 7,493 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7493
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0279 sec. - Files processed: 8,274 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8274
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0295 sec. - Files processed: 9,161 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9161
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0332 sec. - Files processed: 10,010 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10010
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0232 sec. - Files processed: 10,872 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10872
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0339 sec. - Files processed: 11,722 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11722
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0231 sec. - Files processed: 12,569 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12569
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0284 sec. - Files processed: 13,403 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13403
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0290 sec. - Files processed: 14,269 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14269
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0516 sec. - Files processed: 15,111 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15111
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0323 sec. - Files processed: 15,965 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15965
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0201 sec. - Files processed: 16,819 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16819
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0214 sec. - Files processed: 17,663 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 17663
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0225 sec. - Files processed: 18,513 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 18513
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0335 sec. - Files processed: 19,361 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 19361
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0225 sec. - Files processed: 20,199 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20199
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0438 sec. - Files processed: 21,063 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 21063
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0253 sec. - Files processed: 21,908 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 21908
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0347 sec. - Files processed: 22,757 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 22757
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0350 sec. - Files processed: 23,576 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23576
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0382 sec. - Files processed: 24,439 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 24439
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0287 sec. - Files processed: 25,297 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 25297
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0431 sec. - Files processed: 26,141 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 26141
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0422 sec. - Files processed: 26,996 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 26996
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0279 sec. - Files processed: 27,843 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 27843
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0223 sec. - Files processed: 28,705 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 28705
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0256 sec. - Files processed: 29,566 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 29566
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0320 sec. - Files processed: 30,630 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 30630
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0319 sec. - Files processed: 31,414 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 31414
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0279 sec. - Files processed: 32,488 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 32488
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0271 sec. - Files processed: 33,362 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 33362
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0548 sec. - Files processed: 34,211 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 34211
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0301 sec. - Files processed: 34,713 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 34713
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0753 sec. - Files processed: 35,719 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 35719
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0860 sec. - Files processed: 36,299 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 36299
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0211 sec. - Files processed: 37,101 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 37101
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0603 sec. - Files processed: 37,806 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 37806
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0361 sec. - Files processed: 38,576 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 38576
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0406 sec. - Files processed: 39,392 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 39392
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0297 sec. - Files processed: 40,729 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 40729
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0477 sec. - Files processed: 41,632 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 41632
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0224 sec. - Files processed: 42,318 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 42318
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0621 sec. - Files processed: 43,199 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 43199
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0301 sec. - Files processed: 44,014 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 44014
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0390 sec. - Files processed: 44,981 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 44981
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/bvapp"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 46556
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 02:31:38 - RUNTIME: 263.2789 sec. - Files processed: 45,950 of 45,950
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 02:31:39
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     265] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    2702] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     222] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_smush_dir_images"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_smush_dir_images]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      96] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblockediplog]
+TABLE "wp_wfblocks7"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfblocks7]
+TABLE "wp_wfconfig"_____________________________________[ROWS:     223] [EXTRACT|REPLACE] [INST NAME: wp_wfconfig]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfcrawlers]
+TABLE "wp_wffilechanges"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilechanges]
+TABLE "wp_wffilemods"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilemods]
+TABLE "wp_wfhits"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhits]
+TABLE "wp_wfhoover"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhoover]
+TABLE "wp_wfissues"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfissues]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfknownfilelist]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflivetraffichuman]
+TABLE "wp_wflocs"_______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflocs]
+TABLE "wp_wflogins"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflogins]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_2fa_secrets]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_role_counts]
+TABLE "wp_wfls_settings"________________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: wp_wfls_settings]
+TABLE "wp_wfnotifications"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wfnotifications]
+TABLE "wp_wfpendingissues"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfpendingissues]
+TABLE "wp_wfreversecache"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfreversecache]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsnipcache]
+TABLE "wp_wfstatus"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfstatus]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wftrafficrates]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.22 -- Build Server: 10.6.9
+FILE SIZE:	dup-database__[HASH].sql (1.6MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8$3utf8_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8_general_ci$3utf8$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8$3utf8_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8_general_ci$3utf8$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8_general_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	313
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     3]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   265]
+TABLE "wp_postmeta"_____________________________________[ROWS:  2702]
+TABLE "wp_posts"________________________________________[ROWS:   222]
+TABLE "wp_smush_dir_images"_____________________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:     6]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     1]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     1]
+TABLE "wp_usermeta"_____________________________________[ROWS:    96]
+TABLE "wp_users"________________________________________[ROWS:     5]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:     0]
+TABLE "wp_wfblocks7"____________________________________[ROWS:     0]
+TABLE "wp_wfconfig"_____________________________________[ROWS:   223]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:     0]
+TABLE "wp_wffilechanges"________________________________[ROWS:     0]
+TABLE "wp_wffilemods"___________________________________[ROWS:     0]
+TABLE "wp_wfhits"_______________________________________[ROWS:     0]
+TABLE "wp_wfhoover"_____________________________________[ROWS:     0]
+TABLE "wp_wfissues"_____________________________________[ROWS:     0]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:     0]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:     0]
+TABLE "wp_wflocs"_______________________________________[ROWS:     0]
+TABLE "wp_wflogins"_____________________________________[ROWS:     0]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:     0]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:     0]
+TABLE "wp_wfls_settings"________________________________[ROWS:    27]
+TABLE "wp_wfnotifications"______________________________[ROWS:     1]
+TABLE "wp_wfpendingissues"______________________________[ROWS:     0]
+TABLE "wp_wfreversecache"_______________________________[ROWS:     0]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:     0]
+TABLE "wp_wfstatus"_____________________________________[ROWS:     0]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 3.7046 sec.
+STEP-2 COMPLETE @ 02:31:43 - RUNTIME: 3.7049 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /opt/bitnami/wordpress REPLACE: C:/xampp/htdocs/bvapp/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /opt/bitnami/wordpress REPLACE: C:/xampp/htdocs/bvapp [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://bvapp.net REPLACE: http://localhost/bvapp/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://bvapp.net REPLACE: http://localhost/bvapp [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 02:31:44
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = minor], [inWpConfig = 1]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    42]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   223][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2702][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   222][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     6][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    96][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   223][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfconfig][0]
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_role_counts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfls_settings][0]
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/opt/bitnami/wordpress" ==========================> "C:/xampp/htdocs/bvapp"
+	SEARCH[urlnd]  2:"http://bvapp.net" ================================> "http://localhost/bvapp"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfnotifications][0]
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:36 	|	 Rows:3504 	|	 Cells:18052 
+UPDATED:	Tables:4 	|	 Rows:147 	|	 Cells:148 
+ERRORS:		0 
+RUNTIME:	0.640500 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/bvapp/wp-config.php
+New htaccess file created:C:/xampp/htdocs/bvapp/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_HOME "http://localhost/bvapp"
+	UPDATE WP_SITEURL "http://localhost/bvapp/"
+	UPDATE DB_NAME ""bvapp""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_AUTO_UPDATE_CORE "minor"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:31:45 - RUNTIME: 1.1193 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/bvapp/index.php
+E_WARNING file_put_contents(C:/xampp/htdocs/bvapp/wp-content/uploads/sucuri/sucuri-settings.php): Failed to open stream: No such file or directory
+	FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\lastlogins.php[430]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\sucuri.php[220]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\bvapp\wp-settings.php[428]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Model.php[249]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Model.php[254]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Model.php[261]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Model.php[271]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[24]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[40]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[32]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[45]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[16]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient\src\Google\Collection.php[51]
+	--- TRACE ---
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[444]
+	FUNCTION: Composer\Autoload\includeFile FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\svg-support\vendor\composer\ClassLoader.php[322]
+	CLASS___: Composer\Autoload\ClassLoader->loadClassFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\google\apiclient-services\autoload.php[21]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[55]
+	FUNCTION: composerRequirec06481b69a775da8da989bae5b7250e8FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\composer\autoload_real.php[38]
+	CLASS___: ComposerAutoloaderInitc06481b69a775da8da989bae5b7250e8::getLoaderFILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\vendor\autoload.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\themes\twentytwentyone-child\functions.php[5]
+	FUNCTION: include                       FILE: C:\xampp\htdocs\bvapp\wp-settings.php[566]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING file_put_contents(C:/xampp/htdocs/bvapp/wp-content/uploads/sucuri/sucuri-settings.php): Failed to open stream: No such file or directory
+	FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[225]
+	--- TRACE ---
+	FUNCTION: file_put_contents             FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[225]
+	CLASS___: SucuriScanOption::writeNewOptionsFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[327]
+	CLASS___: SucuriScanOption::updateOptionFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[299]
+	CLASS___: SucuriScanOption::getOption   FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\option.lib.php[368]
+	CLASS___: SucuriScanOption::isEnabled   FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\base.lib.php[584]
+	CLASS___: SucuriScan::supportReverseProxyFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\sucuri-scanner\src\interface.lib.php[52]
+	CLASS___: SucuriScanInterface::initializeFILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[598]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Cookie\Jar.php[63]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Cookie\Jar.php[73]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Cookie\Jar.php[89]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Cookie\Jar.php[102]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Cookie_Jar::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Cookie\Jar.php[111]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[591]
+	CLASS___: Requests::set_defaults        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[365]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[40]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetGet($key) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[51]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetSet($key, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[68]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::offsetUnset($key) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[82]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Return type of Requests_Utility_CaseInsensitiveDictionary::getIterator() should either be compatible with IteratorAggregate::getIterator(): Traversable, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Utility\CaseInsensitiveDictionary.php[91]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response\Headers.php[13]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[146]
+	CLASS___: Requests::autoloader          FILE: C:\xampp\htdocs\bvapp\wp-includes\Requests\Response.php[20]
+	CLASS___: Requests_Response->__constructFILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[631]
+	CLASS___: Requests::parse_response      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-requests.php[385]
+	CLASS___: Requests::request             FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[394]
+	CLASS___: WP_Http->request              FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-http.php[614]
+	CLASS___: WP_Http->post                 FILE: C:\xampp\htdocs\bvapp\wp-includes\http.php[179]
+	FUNCTION: wp_remote_post                FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[932]
+	FUNCTION: spawn_cron                    FILE: C:\xampp\htdocs\bvapp\wp-includes\cron.php[1004]
+	FUNCTION: _wp_cron                      FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[307]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\bvapp\wp-includes\class-wp-hook.php[331]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\bvapp\wp-includes\plugin.php[476]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\bvapp\wp-settings.php[620]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-config.php[194]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\bvapp\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\bvapp\wp-content\wp_test_script_289ae04-13142054.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING chmod(): No such file or directory
+	FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Cache_File_Generic.php[68]
+	--- TRACE ---
+	FUNCTION: chmod                         FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Cache_File_Generic.php[68]
+	CLASS___: W3TC\Cache_File_Generic->set  FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\PgCache_ContentGrabber.php[2179]
+	CLASS___: W3TC\PgCache_ContentGrabber->_maybe_save_cached_resultFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\PgCache_ContentGrabber.php[444]
+	CLASS___: W3TC\PgCache_ContentGrabber->ob_callbackFILE: [-1]
+	FUNCTION: call_user_func                FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Util_Bus.php[21]
+	CLASS___: W3TC\Util_Bus::do_ob_callbacksFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Generic_Plugin.php[511]
+	CLASS___: W3TC\Generic_Plugin->ob_callbackFILE: [-1]
+	FUNCTION: ob_clean                      FILE: C:\xampp\htdocs\bvapp\dup-installer\src\Utils\Tests\WP\TestsErrorHandler.php[182]
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::obCleanAllFILE: C:\xampp\htdocs\bvapp\dup-installer\src\Utils\Tests\WP\TestsErrorHandler.php[151]
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::shutdownFILE: [-1]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\xampp\htdocs\bvapp/wp-content/cache/page_enhanced\localhost/_index_slash.html): No such file or directory
+	FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Cache_File_Generic.php[71]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Cache_File_Generic.php[71]
+	CLASS___: W3TC\Cache_File_Generic->set  FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\PgCache_ContentGrabber.php[2179]
+	CLASS___: W3TC\PgCache_ContentGrabber->_maybe_save_cached_resultFILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\PgCache_ContentGrabber.php[444]
+	CLASS___: W3TC\PgCache_ContentGrabber->ob_callbackFILE: [-1]
+	FUNCTION: call_user_func                FILE: C:\xampp\htdocs\bvapp\wp-content\plugins\w3-total-cache\Util_Bus.php[21]
+	CLASS___: W3TC\Util_Bus::do_ob_ca====================================
+LOG-TIME[C:\xampp\htdocs\bvapp\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.17424]  MESSAGE:END RENDER PAGE
