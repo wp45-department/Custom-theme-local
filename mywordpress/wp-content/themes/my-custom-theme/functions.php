@@ -165,7 +165,60 @@ $labels = array(
 
 register_taxonomy( 'podcasts-tag', 'private-bookings', $args );
 }
-
 add_action('init','register_taxonomy_podcasts_tag');
 
+
+//post type grid layout
+
+// Create Shortcode to Display podcast Post Types
+  
+function diwp_create_shortcode_podcast_post_type(){
+  
+    $args = array(
+                    'post_type'      => 'podcasts', // don't forget to replace it with your custom post type name
+                    'posts_per_page' => '10',
+                    'publish_status' => 'published',
+                 );
+  
+    $query = new WP_Query($args);
+  
+    if($query->have_posts()) :
+  
+        while($query->have_posts()) :
+  
+            $query->the_post() ;
+
+			?>
+                      
+        <div class="podcast-item">
+        <div class="podcast-poster"><?php echo get_the_post_thumbnail() ?></div>
+        <div class="podcast-name"><?php echo get_the_title()?></div>
+        <div class="podcast-desc"><?php echo get_the_content()?></div> 
+		<div class="cust-read-more">
+		<a class="cust-read-more-button" href="<?php the_permalink(); ?>">read more</a></div>
+        </div>
+
+		<?php
+  
+        endwhile;
+  
+        wp_reset_postdata();
+  
+    endif;    
+  
+               
+}
+  
+add_shortcode( 'podcast-list', 'diwp_create_shortcode_podcast_post_type' ); 
+  
+// shortcode code ends here
+
+
+//code for thumnail
+add_action( 'after_setup_theme', 'cxc_add_post_thumbnail_supports', 99 );
+function cxc_add_post_thumbnail_supports() {
+	add_theme_support( 'post-thumbnails' );
+}
+
 ?>
+
