@@ -10,12 +10,14 @@ get_header();
       <h2>We are team of talented designers making websites with Bootstrap</h2>
     </div>
     <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero-img.png" class="img-fluid animated" alt="">
+      <?php echo the_post_thumbnail(); ?>
     </div>
   </div>
 </div>
-
 </section>
+<div class="cust-podcast-excerpt">
+<?php echo the_excerpt(); ?>
+</div>
 <?php 
 get_footer();
 ?>

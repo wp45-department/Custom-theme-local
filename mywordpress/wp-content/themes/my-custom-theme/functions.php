@@ -219,6 +219,4 @@ add_action( 'after_setup_theme', 'cxc_add_post_thumbnail_supports', 99 );
 function cxc_add_post_thumbnail_supports() {
 	add_theme_support( 'post-thumbnails' );
 }
-
 ?>
-
